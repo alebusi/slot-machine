@@ -1,6 +1,6 @@
 function myfunc() {
   var valore = document.myForm.myField.value;
-  setInterval(avvisa(), valore*60000);
+  setInterval(avvisa, valore*60000);
 }
 
 function avvisa() {
