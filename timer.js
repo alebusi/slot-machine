@@ -4,6 +4,6 @@ function myfunc() {
 }
 
 function avvisa() {
-  var suona = new Audio('counter.wav');
+  var suona = new Audio('timer.mp3');
   suona.play();
 }
