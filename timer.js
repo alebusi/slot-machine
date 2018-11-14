@@ -1,8 +1,7 @@
 function myfunc() {
   var valore = document.myForm.myField.value;
   avvisa();
-  my_element = document.getElementById("msg");
-  my_element.setAttribute("class","on");
+  document.getElementById("msg").className="on";
   setInterval(avvisa, valore*60000);
 }
 
