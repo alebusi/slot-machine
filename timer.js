@@ -24,7 +24,7 @@ function avvisa() {
   if (modo == 1) {
     valoreOpacity+=0.2;
     document.getElementById("trasparenza").style.opacity = valoreOpacity;
-    if (valoreOpacity == 100) {
+    if (valoreOpacity == 1) {
       valoreOpacity=0;
     }
   }
