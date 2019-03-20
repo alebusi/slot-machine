@@ -27,5 +27,6 @@ function avvisa() {
     if (valoreOpacity == 100) {
       valoreOpacity=0;
     }
+  }
   /* suona.play(); */
 }
