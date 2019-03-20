@@ -1,4 +1,4 @@
-var modo=0;
+var modo=1;
 var valoreOpacity=0;
 
 function myfunc() {
