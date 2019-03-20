@@ -1,16 +1,19 @@
-var modo=1;
+var modo=0;
 var valoreOpacity=0;
 
 function myfunc() {
-  if (modo == 0) {
-    modo=1;
+  if (modo >0) {
+     clearInterval(myTimer);
+  }
+  if (modo == 1) {
+    modo=2;
     }
   else {
-    modo=0;
+    modo=1;
   }
   var valore = 2000;
   avvisa();
-  setInterval(avvisa, valore);
+  myTimer=setInterval(avvisa, valore);
 }
 
 function avvisa() {
@@ -21,7 +24,7 @@ function avvisa() {
   else {
     document.getElementById("target").className="bianca";
   }
-  if (modo == 1) {
+  if (modo == 2) {
     valoreOpacity+=0.2;
     document.getElementById("target").style.opacity = valoreOpacity;
     if (valoreOpacity == 1) {
