@@ -4,13 +4,14 @@ var valoreOpacity=0;
 function myfunc() {
   if (modo >0) {
      clearInterval(myTimer);
-     valoreOpacity=1;
   }
   if (modo == 1) {
-    modo=2;
+    modo=2
+    valoreOpacity=0;
     }
   else {
-    modo=1;
+    modo=1
+    valoreOpacity=1;
   }
   var valore = 2000;
   avvisa();
