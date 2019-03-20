@@ -2,40 +2,29 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Timer</title>
+  <title>Scacchiera</title>
   <style type="text/css">
-    .container {
-      margin: 3em;
-      font-size: 4em;
-      text-align: center;
+    body {
+      background-color: black;
     }
-    input[type=text] {
-      font-size: 50px;
-      width: 100px;
-      background-color: yellow;
+    .bianca {
+      margin: 5vh auto;
+      width: 90vw;
+      height: 90vh;
+      background-image: url("scacc2.png");
+      background-position: center;
     }
-    input[type=button] {
-      font-size: 50px;
-      color: white;
-      background-color: red;
-    }
-    .off {
-      color: white;
-    }
-    .on {
-      color: black;      
-    }
-  </style>
+    .nera {
+      margin: 5vh auto;
+      width: 90vw;
+      height: 90vh;
+      background-image: url("scacc1.png");
+      background-position: center;
+    } 
+ </style>
 </head>
 <body>
-  <div class="container">
-  <form name="myForm">
-    <label>Minuti</label>
-    <input type="text" name="myField" value="10">
-    <input type="button" value="Avvia" onclick="myfunc()">
-  </form>
-  <div id="msg" class="off">Partito</div>
-  </div>
-  <script  src="timer.js"></script>
+  <div class="bianca onclick="myfunc()"></div>
+  <script src="timer.js"></script>
 </body>
 </html>
