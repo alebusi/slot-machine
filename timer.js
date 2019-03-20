@@ -4,6 +4,7 @@ var valoreOpacity=0;
 function myfunc() {
   if (modo >0) {
      clearInterval(myTimer);
+     valoreOpacity=1;
   }
   if (modo == 1) {
     modo=2;
