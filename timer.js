@@ -5,12 +5,12 @@ function myfunc() {
 }
 
 function avvisa() {
-  var suona = new Audio('timer.mp3');
+  /* var suona = new Audio('timer.mp3'); */
   if (document.getElementById("target").className=="bianca") {
     document.getElementById("target").className="nera";
   }
   else {
     document.getElementById("target").className="bianca";
   }
-  suona.play();
+  /* suona.play(); */
 }
