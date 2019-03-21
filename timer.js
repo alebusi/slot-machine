@@ -12,6 +12,7 @@ function myfunc() {
   else {
     modo=1
     valoreOpacity=1;
+    document.getElementById("target").style.opacity = valoreOpacity;
   }
   var valore = 2000;
   avvisa();
