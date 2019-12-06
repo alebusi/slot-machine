@@ -21,11 +21,13 @@ function myfunc() {
 
 function avvisa() {
   /* var suona = new Audio('timer.mp3'); */
-  if (document.getElementById("target").className=="bianca") {
-    document.getElementById("target").className="nera";
-  }
-  else {
-    document.getElementById("target").className="bianca";
+  if (modo == 1) {  
+     if (document.getElementById("target").className=="bianca") {
+       document.getElementById("target").className="nera";
+     }
+     else {
+       document.getElementById("target").className="bianca";
+     }
   }
   if (modo == 2) {
     valoreOpacity+=0.2;
