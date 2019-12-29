@@ -26,6 +26,6 @@ function cambioOpac() {
     document.getElementById("bordo").style.opacity = 1
   }
   else {
-    document.getElementById("elemento2").style.opacity=0;  
+    document.getElementById("bordo").style.opacity=0;  
   }
 }
