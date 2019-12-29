@@ -1,4 +1,4 @@
-var lettersC = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+var letters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 var timerAttivo = "N";
 
 function randomIntFromInterval(min,max) {
@@ -18,5 +18,5 @@ function scriviLetteraTimer() {
 }
 
 function scriviLettera() {
-  document.getElementById("lettera").innerHTML = lettersC[(randomIntFromInterval(0,lettersC.length - 1))];
+  document.getElementById("lettera").innerHTML = lettersC[(randomIntFromInterval(0,letters.length - 1))];
 }
