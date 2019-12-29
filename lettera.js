@@ -18,5 +18,5 @@ function scriviLetteraTimer() {
 }
 
 function scriviLettera() {
-  document.getElementById("lettera").innerHTML = lettersC[(randomIntFromInterval(0,letters.length - 1))];
+  document.getElementById("lettera").innerHTML = letters[(randomIntFromInterval(0,letters.length - 1))];
 }
