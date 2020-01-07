@@ -33,12 +33,12 @@ function cambioOpac() {
     document.getElementById("bordo").style.opacity=0;  
   }
 }
-function cambiaDimensione() {
+function cambioDimensione() {
   ind+=1;
   if (ind > dimensione.length-1) ind=0;
   document.getElementById("lettera").style.fontSize=dimensione[ind];
 }
-function cambiaPeso() {
+function cambioPeso() {
   ind_p+=1;
   if (ind_p > peso.length-1) ind_p=0;
   document.getElementById("lettera").style.fontWeight=peso[ind];
