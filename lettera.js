@@ -41,5 +41,5 @@ function cambioDimensione() {
 function cambioPeso() {
   ind_p+=1;
   if (ind_p > peso.length-1) ind_p=0;
-  document.getElementById("lettera").style.fontWeight=peso[ind];
+  document.getElementById("lettera").style.fontWeight=peso[ind_p];
 }
