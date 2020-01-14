@@ -12,9 +12,9 @@ body {
 }
 
 .elemento {
-      position: inline-block;
       width: 0;
       height: 0;
+      display: inline-block;
       line-height: 0;
       margin: 30px;
       border: 200px solid white;
