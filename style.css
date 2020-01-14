@@ -2,48 +2,21 @@
       background-color: black;
     }
  
-    .centro {
+.contenitore {
       margin: 0;
-      position: fixed;
-      color: white;
-      font-size: 120px;
-      font-family: raleway, sans-serif;
+      position: absolute;
       top: 50%;
       left: 50%;
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
     }
 
-.tastoDim {
-      position: fixed;    
-      top: 30vh;
-      width: 30vw;
-      height: 40vh;
-}
 
-.tastoPeso {
-      position: fixed;    
-      top: 30vh;
-      left: 70vw;
-      width: 30vw;
-      height: 40vh;
-}
-
-.bottone {
-      position: fixed;    
-      top: 70vh;
-      width: 99vw;
-      height: 29vh;
-}
-
-#bordo {
-      position: absolute;
-      width: 450px;
-      height: 450px;
-      border: solid 20px orange;
-      opacity: 1;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+.elemento {
+      position: inline-block;
+      width: 0;
+      height: 0;
+      line-height: 0;
+      margin: 30px;
+      border: 200px solid white;
 }
