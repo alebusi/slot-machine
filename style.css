@@ -14,7 +14,7 @@ body {
 .elemento {
       width: 0;
       height: 0;
-      display: inline;
+      display: inline-block;
       line-height: 0;
       margin: 30px;
       border: 150px solid white;
