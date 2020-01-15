@@ -22,4 +22,25 @@ function tiraLeva() {
   document.getElementById("secondo").style.borderColor = colori[(randomIntFromInterval(0,colori.length - 1))];
   document.getElementById("terzo").style.borderColor = colori[(randomIntFromInterval(0,colori.length - 1))];
   document.getElementById("quarto").style.borderColor = colori[(randomIntFromInterval(0,colori.length - 1))];
+
+  num=randomIntFromInterval(0,1);
+  if (num == 1) {
+    document.getElementById("primo").style.borderLeftColor = "transparent";
+    document.getElementById("primo").style.borderTopColor = "transparent";
+  }
+  num=randomIntFromInterval(0,1);
+  if (num == 1) {
+    document.getElementById("secondo").style.borderRightColor = "transparent";
+    document.getElementById("secondo").style.borderTopColor = "transparent";
+  }
+  num=randomIntFromInterval(0,1);
+  if (num == 1) {
+    document.getElementById("terzo").style.borderLeftColor = "transparent";
+    document.getElementById("terzo").style.borderBottomColor = "transparent";
+  }
+  num=randomIntFromInterval(0,1);
+  if (num == 1) {
+    document.getElementById("quarto").style.borderRightColor = "transparent";
+    document.getElementById("quarto").style.borderBottomColor = "transparent";
+  }
 }
