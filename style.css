@@ -17,5 +17,10 @@ body {
       height: 0;
       line-height: 0;
       margin: 30px;
-      border: 150px solid white;
+      border: 100px solid white;
+}
+.tira {
+      width: 99vw;
+      height: 30vh;
+      background-color:black;
 }
