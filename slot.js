@@ -44,7 +44,6 @@ function tiraLeva() {
       document.getElementById("primo").style.borderLeftColor = "transparent";
       document.getElementById("primo").style.borderTopColor = "transparent";
       }
-    audioTimer.play();
   }
   if (colonne[1]=="S") {
     document.getElementById("secondo").style.borderColor = colori[(randomIntFromInterval(0,colori.length - 1))];
@@ -53,7 +52,6 @@ function tiraLeva() {
       document.getElementById("secondo").style.borderRightColor = "transparent";
       document.getElementById("secondo").style.borderTopColor = "transparent";
     }
-    audioTimer.play();
   }
   if (colonne[2]=="S") {
     document.getElementById("terzo").style.borderColor = colori[(randomIntFromInterval(0,colori.length - 1))];
@@ -62,6 +60,5 @@ function tiraLeva() {
       document.getElementById("terzo").style.borderLeftColor = "transparent";
       document.getElementById("terzo").style.borderBottomColor = "transparent";
     }
-    audioTimer.play();
   }
 }
