@@ -7,13 +7,14 @@
 </head>
 <body>
   <div class="contenitore">
-    <table onclick="tiraLevaTimer()">
+    <table>
       <tr> 
-        <td> <div id="primo" class="elemento" onclick="tiraLeva(this)"></div></td>
-        <td> <div id="secondo" class="elemento" onclick="tiraLeva(this)"></div></td>
-        <td> <div id="terzo" class="elemento" onclick="tiraLeva(this)"></div></td>
+        <td> <div id="primo" class="elemento" onclick="bloccaColonna(this)"></div></td>
+        <td> <div id="secondo" class="elemento" onclick="bloccaColonna(this)"></div></td>
+        <td> <div id="terzo" class="elemento" onclick="bloccaColonna(this)"></div></td>
       </tr>
     </table>
+    <div class="tira" onclick="tiraLevaTimer()"></div>
   </div>
   <script src="slot.js"></script>
 </body>
